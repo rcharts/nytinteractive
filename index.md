@@ -15,27 +15,6 @@ assets:
     - "http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700"
 ---
 
-<style>
-p {
-  text-align: justify;
-  font-family: "Open Sans";
-}
-pre code {
-  font-size: 12px;
-}
-code {
-  color: darkred;
-}
-h1 {
-  font-family: "Open Sans Condensed", sanserif;
-  color: darkslategray;
-}
-.nvd3Plot, .Morris {
-  height: 400px;
-  width: 600px;
-}
-</style>
-
 
 
 
