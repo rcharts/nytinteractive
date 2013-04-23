@@ -33,7 +33,7 @@ The first step is to get data on strikeouts by team across years. The NY Times g
 The data processing step involves using the [plyr](http://cran.r-project.org/web/packages/plyr/index.html) package to create two data frames:
 
 1. `team_data` containing `SOG` (strikeouts per game) by `yearID` and team `name`
-2. `leageu_data` containing `SOG` by `yearID` averaged across the league.
+2. `league_data` containing `SOG` by `yearID` averaged across the league.
 
 
 ```{r}
