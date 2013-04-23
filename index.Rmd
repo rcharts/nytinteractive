@@ -2,7 +2,7 @@
 title: rCharts
 subtitle: Interactive JS Charts from R
 author: Ramnath Vaidyanathan
-github: {user: ramnathv, repo: rCharts, branch: "gh-pages"}
+github: {user: ramnathv, repo: rChartsNYT, branch: "gh-pages"}
 framework: minimal
 mode: selfcontained
 widgets: [polycharts]
