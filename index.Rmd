@@ -78,7 +78,7 @@ p1$layer(data = team_data[team_data$name == myteam,], color = list(const = 'red'
 p1$print('chart3')
 ```
 
-Let us add a little more interactivity to the chart. To keep it simple, we will use handlers in PolychartJS to initiate an action when a user clicks on a point. Here is where the magic of `knitr` shines (thanks to [yihui/knitr](yihui/knitr)), as we can mix coffeescript code in our document. The current handler is a simple one, which just displays the name of the team clicked on. If you are familiar with Coffeescript, the code is self explanatory.
+Let us add a little more interactivity to the chart. To keep it simple, we will use handlers in PolychartJS to initiate an action when a user clicks on a point. Here is where the magic of `knitr` shines (thanks to [yihui/knitr](http://github.com/yihui/knitr)), as we can mix coffeescript code in our document. The current handler is a simple one, which just displays the name of the team clicked on. If you are familiar with Coffeescript, the code is self explanatory.
 
 ```{r interactivity, engine='coffee', echo = T, eval = F}
 graph_chart3.addHandler (type, e) ->
