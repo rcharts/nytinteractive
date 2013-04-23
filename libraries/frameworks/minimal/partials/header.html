@@ -21,6 +21,19 @@ install_github('rCharts', 'ramnathv')</code></pre>
     </li>
   </ul>
   {{/ page.github }}
+  <h3>Fully Reproducible</h3>
+  <p>Download repo and run.</p>
+  <pre><code class='r'>setwd('rChartsNYT')
+  
+# reproduce the post
+require(slidify) # dev version
+slidify('index.Rmd')      
+system('open index.html') 
+
+# run the shiny app
+require(shiny)
+runApp('app')
+</code></pre>
     <ol>
     {{# page.menu }}
       <p>{{{ . }}}</p>

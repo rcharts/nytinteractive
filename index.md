@@ -209,23 +209,6 @@ shinyServer(function(input, output) {
 
 ### Notes
 
-This post is fully reproducible. You will need to have the `dev` version of the [slidify](http://github.com/ramnathv/slidify) package installed. Here are the steps to reproduce this post, and run the shiny application.
-
-
-```r
-# download the repo
-system('git clone git://github.com/ramnathv/rChartsNYT.git')
-setwd('rChartsNYT')
-
-# reproduce the post
-require(slidify)
-slidify('index.Rmd')      # or press the Knit HTML button if you are pressing RStudio
-system('open index.html') # or just click on index.html
-
-# run the shiny app
-require(shiny)
-runApp('app')
-```
-
+This post is fully reproducible. You will need to have the `dev` version of the [slidify](http://github.com/ramnathv/slidify) package installed.
 
 

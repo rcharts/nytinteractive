@@ -45,6 +45,19 @@ install_github('rCharts', 'ramnathv')</code></pre>
       Fork On <strong>GitHub</strong></a>
     </li>
   </ul>
+  <h3>Fully Reproducible</h3>
+  <p>Download repo and run.</p>
+  <pre><code class='r'>setwd('rChartsNYT')
+  
+# reproduce the post
+require(slidify) # dev version
+slidify('index.Rmd')      
+system('open index.html') 
+
+# run the shiny app
+require(shiny)
+runApp('app')
+</code></pre>
     <ol>
     </ol>
 </header>
@@ -214,21 +227,7 @@ shinyServer(function(input, output) {
 
 <h3>Notes</h3>
 
-<p>This post is fully reproducible. You will need to have the <code>dev</code> version of the <a href="http://github.com/ramnathv/slidify">slidify</a> package installed. Here are the steps to reproduce this post, and run the shiny application.</p>
-
-<pre><code class="r"># download the repo
-system(&#39;git clone git://github.com/ramnathv/rChartsNYT.git&#39;)
-setwd(&#39;rChartsNYT&#39;)
-
-# reproduce the post
-require(slidify)
-slidify(&#39;index.Rmd&#39;)      # or press the Knit HTML button if you are pressing RStudio
-system(&#39;open index.html&#39;) # or just click on index.html
-
-# run the shiny app
-require(shiny)
-runApp(&#39;app&#39;)
-</code></pre>
+<p>This post is fully reproducible. You will need to have the <code>dev</code> version of the <a href="http://github.com/ramnathv/slidify">slidify</a> package installed.</p>
 
       </section>
       <footer>
