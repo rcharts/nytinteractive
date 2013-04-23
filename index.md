@@ -109,7 +109,7 @@ p1$print('chart3')
 </script>
 
 
-Let us add a little more interactivity to the chart. To keep it simple, we will use handlers in PolychartJS to initiate an action when a user clicks on a point. Here is where the magic of `knitr` shines (thanks to @yihui), as we can mix coffeescript code in our document. The current handler is a simple one, which just displays the name of the team clicked on. If you are familiar with Coffeescript, the code is self explanatory.
+Let us add a little more interactivity to the chart. To keep it simple, we will use handlers in PolychartJS to initiate an action when a user clicks on a point. Here is where the magic of `knitr` shines (thanks to [yihui/knitr](yihui/knitr)), as we can mix coffeescript code in our document. The current handler is a simple one, which just displays the name of the team clicked on. If you are familiar with Coffeescript, the code is self explanatory.
 
 
 ```coffee
